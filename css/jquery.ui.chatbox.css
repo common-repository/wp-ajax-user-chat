@@ -1,0 +1,149 @@
+/* style sheets */
+.ui-chatbox {
+    position: fixed;
+    bottom:0;
+    /*padding: 2px;*/
+    background:  #CCCCCC;
+	z-index: 1000!important;
+}
+
+.ui-chatbox-titlebar {
+    padding: 3px 10px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.ui-chatbox-content {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.ui-chatbox-log {
+    padding: 3px;
+    height: 250px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: #FFFFFF;
+    width: 100%!important;	
+}
+
+.ui-chatbox-input {
+    padding: 3px;
+    border-top: 1px solid grey;
+    overflow: hidden;
+	max-width: 100%!important;
+}
+
+.ui-chatbox-input-box {
+    margin: 5px;
+    border: 2px solid lightgrey;/* #6699FF */
+    padding: 2px;
+    height: 50px;
+	width: 96%!important;
+}
+
+.ui-chatbox-icon {
+    float: right;
+}
+
+.ui-chatbox-input-focus {
+    border-color: #6699FF;
+}
+
+.ui-chatbox-msg {
+    margin-top: 10px;
+    float: left;
+    clear: both;
+    /* Source: http://snipplr.com/view/10979/css-cross-browser-word-wrap */
+    white-space: pre-wrap;      /* CSS3 */
+    white-space: -moz-pre-wrap; /* Firefox */
+    white-space: -pre-wrap;     /* Opera <7 */
+    white-space: -o-pre-wrap;   /* Opera 7 */
+    word-wrap: break-word;      /* IE */
+}
+#wpchat{
+	bottom: 0;
+	position: fixed;
+	left: 0;
+	text-align: left;
+	width: 200px;
+	z-index: 999!important;
+}
+#wpchat #nologin{
+	float: left;
+	padding: 5px;
+	background: #6495ED;
+	font-size: 12px;
+}
+#wpchat .offline{
+	color: #b1b1b1;
+	pointer-events : none;	
+}
+#wpchatusers{
+    float: left;
+    width: auto;
+	/*padding: 5px;*/
+	background: none repeat scroll 0 0 #FFFAF0;
+    border: 1px solid #CCCCCC;	
+	max-width: 180px;
+	min-width: 160px;
+}
+#wpchatuserstitle{
+	background: #6495ED;
+	font-size: 15px;
+    margin: 0;
+    padding: 1px 5px 0;
+	text-align: left;
+	border-top: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+}
+#allusers{
+	border-right: 1px solid;
+	border-left: 1px solid;
+}
+#wpchatusers a{
+	float: left;
+	padding: 4px;
+	width: 100%;
+	text-align: left;
+	color: #6495ED;
+	font-size: 13px;
+}
+#wpchatnousers{
+    background: none repeat scroll 0 0 #6495ED;
+    border: 1px solid #FFFFFF;
+    color: #000000;
+    float: left;
+    padding: 5px;
+    width: 260px;	
+}
+.mini{
+	background-image: url("images/ui-icons_ffffff_256x240.png");
+	background-position: -64px -128px;
+	height: 16px;
+    width: 16px;
+	cursor: pointer;
+	float: right;
+	padding: 2px;
+	margin: 2px;
+}
+.activewpac {
+	background-image: url("images/ui-icons_ffffff_256x240.png");
+	background-position: -34px -128px !important;
+	height: 16px;
+    width: 16px;
+	cursor: pointer;
+	float: right;
+	padding: 2px;
+	margin: 2px;
+}
+.ui-widget-header a{
+	margin-top:5px;	
+}
+.ui-widget-header span{	
+	font-size: 18px;
+    margin-top: -2px;
+    float: left;
+}
